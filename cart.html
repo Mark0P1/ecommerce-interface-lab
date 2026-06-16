@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Shopping Cart - TechTrend PH</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
@@ -12,42 +13,42 @@
       <li><a href="landing.html">Home</a></li>
       <li><a href="products.html">Products</a></li>
       <li><a href="cart.html">Cart</a></li>
+      <li><a href="signup.html">Account</a></li>
     </ul>
   </nav>
 </header>
 
 <main>
-  <h1>Shopping Cart</h1>
+  <h1>Your Shopping Cart</h1>
 
   <ul>
     <li>
       <img src="images/headphones.jpg" alt="Wireless Headphones">
       <h3>Wireless Headphones</h3>
-      <p>₱2,499</p>
+      <p class="price">2499</p>
 
-      <label for="headphones-quantity">Quantity:</label>
-      <input type="number" id="headphones-quantity" name="headphones-quantity" min="1" value="1">
+      <label for="qty1">Quantity</label>
+      <input type="number" id="qty1" name="qty1" min="1" value="1">
     </li>
 
     <li>
       <img src="images/speaker.jpg" alt="Bluetooth Speaker">
       <h3>Bluetooth Speaker</h3>
-      <p>₱1,799</p>
+      <p class="price">1799</p>
 
-      <label for="speaker-quantity">Quantity:</label>
-      <input type="number" id="speaker-quantity" name="speaker-quantity" min="1" value="1">
+      <label for="qty2">Quantity</label>
+      <input type="number" id="qty2" name="qty2" min="1" value="1">
     </li>
   </ul>
 
   <section>
     <h2>Order Summary</h2>
-    <p>Subtotal: ₱4,298</p>
+    <p class="price">4298</p>
   </section>
 
   <a href="checkout.html" role="button">Proceed to Checkout</a>
 
-  <section>
-    <h2>Empty Cart</h2>
+  <section id="empty-cart">
     <p>Your cart is currently empty.</p>
   </section>
 </main>

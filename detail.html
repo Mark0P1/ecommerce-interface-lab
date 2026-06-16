@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Wireless Headphones - TechTrend PH</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
@@ -11,83 +12,79 @@
     <ul>
       <li><a href="landing.html">Home</a></li>
       <li><a href="products.html">Products</a></li>
-      <li><a href="detail.html">Product Details</a></li>
+      <li><a href="cart.html">Cart</a></li>
+      <li><a href="signup.html">Account</a></li>
     </ul>
   </nav>
 </header>
 
 <main>
-  <section aria-labelledby="product-name">
-    <h1 id="product-name">Wireless Headphones</h1>
+  <section>
+    <h1>Wireless Headphones</h1>
 
     <img src="images/headphones.jpg" alt="Wireless Headphones">
 
-    <p>₱2,499</p>
+    <p class="price">2499</p>
+  </section>
+
+  <section>
+    <h2>Product Specifications</h2>
 
     <table>
-      <caption>Technical Specifications</caption>
-      <thead>
       <tr>
-        <th scope="col">Feature</th>
-        <th scope="col">Details</th>
-      </tr>
-      </thead>
-      <tbody>
-      <tr>
-        <th scope="row">Connectivity</th>
+        <td>Connectivity</td>
         <td>Bluetooth 5.3</td>
       </tr>
       <tr>
-        <th scope="row">Battery Life</th>
+        <td>Battery Life</td>
         <td>30 Hours</td>
       </tr>
       <tr>
-        <th scope="row">Charging Port</th>
+        <td>Charging Port</td>
         <td>USB-C</td>
       </tr>
       <tr>
-        <th scope="row">Weight</th>
-        <td>250 g</td>
+        <td>Weight</td>
+        <td>250g</td>
       </tr>
       <tr>
-        <th scope="row">Color</th>
+        <td>Color</td>
         <td>Black</td>
       </tr>
-      </tbody>
     </table>
   </section>
 
-  <section aria-labelledby="purchase-section">
-    <h2 id="purchase-section">Purchase Options</h2>
+  <section>
+    <h2>Buy Now</h2>
 
     <form>
-      <label for="quantity">Quantity:</label>
+      <label for="quantity">Quantity</label>
       <input type="number" id="quantity" name="quantity" min="1" value="1" required>
 
       <button type="submit">Add to Cart</button>
     </form>
   </section>
 
-  <section aria-labelledby="reviews">
-    <h2 id="reviews">User Reviews</h2>
+  <section>
+    <h2>User Reviews</h2>
 
     <article>
       <blockquote>
-        Excellent sound quality and very comfortable for long listening sessions.
+        Excellent sound quality and very comfortable for long use.
       </blockquote>
       <p>- Maria Santos</p>
     </article>
 
     <article>
       <blockquote>
-        Battery life is impressive and the Bluetooth connection is stable.
+        Battery life is impressive and connection is stable.
       </blockquote>
       <p>- John Reyes</p>
     </article>
 
     <article>
       <blockquote>
-        Great value for the price. Highly recommended for everyday use.
+        Great value for money. Highly recommended.
       </blockquote>
       <p>- Angela Cruz</p>
     </article>
