@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Checkout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <ul>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="cart.html">Cart</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <form id="checkoutForm">
+
+    <input id="fullName" type="text">
+    <small class="error-message"></small>
+
+    <input id="address" type="text">
+    <small class="error-message"></small>
+
+    <input id="zip" type="text">
+    <small class="error-message"></small>
+
+    <input type="radio" name="payment"> Card
+    <input type="radio" name="payment"> PayPal
+    <small class="error-message"></small>
+
+    <button type="submit">Place Order</button>
+
+  </form>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
